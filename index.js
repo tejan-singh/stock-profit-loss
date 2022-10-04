@@ -1,0 +1,5 @@
+const initialPriceInput = document.querySelector('.initial-price')
+const currentPriceInput = document.querySelector('.current-price')
+const noOfStocksInput = document.querySelector('.no-of-stocks')
+const calculateBtn = document.querySelector('.btn')
+const resultMsg = document.querySelector('#result')
