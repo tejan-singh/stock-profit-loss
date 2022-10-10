@@ -26,7 +26,7 @@ const handleClick = () => {
     if (currentPrice < initialPrice) {
 
       resultMsg.style.color = "red";
-      resultMsg.innerHTML = `Your profit is ${value} and percentage profit is ${percentageChange}%`;
+      resultMsg.innerHTML = `Your loss is ${value} and loss profit is ${percentageChange}%`;
       return;
     }
 
